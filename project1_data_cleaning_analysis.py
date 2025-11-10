@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\bpurv\OneDrive\Desktop\VRENV\Data Cleaning and Analysis using Python\employee_data_200.csv")
+df = pd.read_csv(r"employee_data_200.csv")
 
 # Display first few rows
 print("Initial Data Preview:\n", df.head())
